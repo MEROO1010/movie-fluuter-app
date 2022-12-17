@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movies_app/constants/colors.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -10,8 +11,18 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('hello world '),
+    return Stack(
+      children: [
+        Container(
+          color: HexColor('#49608C'),
+        ),
+        Container(
+          child: Text(
+            'Now Playing',
+            style: TextStyle(decoration: TextDecoration.none),
+          ),
+        )
+      ],
     );
   }
 }
