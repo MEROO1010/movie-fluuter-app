@@ -80,8 +80,9 @@ flutter:
   fonts:
     - family: verdana
       fonts:
-        - asset: assts/fonts/verdana.ttf
-        - asset: assets/fonts/verdana-bold.ttf
+        - asset: assets/fonts/
+        
+        
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:

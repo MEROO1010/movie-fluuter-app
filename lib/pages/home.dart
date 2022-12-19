@@ -19,8 +19,14 @@ class _HomeState extends State<Home> {
         Container(
           child: Text(
             'Now Playing',
-            style: TextStyle(decoration: TextDecoration.none),
+            style: TextStyle(
+                decoration: TextDecoration.none,
+                fontFamily: 'verdana.tff',
+                fontWeight: FontWeight.w400,
+                fontSize: 40,
+                color: HexColor('#FFFFFF')),
           ),
+          margin: EdgeInsets.all(48),
         )
       ],
     );
